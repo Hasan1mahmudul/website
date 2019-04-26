@@ -59,7 +59,7 @@ h6{}
     font-size: 14px;
     font-weight: 100;
     position: relative;
-        padding-top: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
 
 }
@@ -111,9 +111,78 @@ header{
     z-index: 0
 
 }
+.carousel-item{
+	min-height: 100vh;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.carousel-control-prev:hover{
+	background: #f0f8ff70;
+	padding-right:20px;
+	padding-right:10px;
+	transition: all 0.4s ease;
+}
+.carousel-control-next:hover{
+	background: #f0f8ff70;
+	padding-right:20px;
+	padding-right:10px;
+	transition: all 0.4s ease;
+}
+.carousel-control-prev{
+
+left: 0;
+
+top: 60%;
+
+transform: translatey(-60%);
+
+bottom: auto;
+
+
+/* font-size: 24px; */
+
+
+}
+.carousel-control-next{
+	
+right: auto;
+	
+left: 0;
+	
+top: 54%;
+	
+transform: translatey(-54%);
+	
+bottom: auto;
+
+	
+/* font-size: 24px; */
+}
 
 .banner-content{
     text-align: center;
+
+   
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-18%);
 }
 .banner-content h2{
     color: #fff;
@@ -248,6 +317,7 @@ header{
 	content: "";
 	padding: ab;
 	position: absolute;
+
 	background: #1f1f1fc2;
 	width: 100%;
 	height: 0;
@@ -348,5 +418,97 @@ header{
 
 .works-section{
 	padding-top: 100px;
+	position: relative;
 }
+
+.nav{
+    margin-left: 395px;
+    margin-bottom: 14px;
+}
+
+
+.nav-item  a{
+	padding: 10px;
+	text-decoration: none;
+	color: #afbac3a1;
+}
+.nav-item a:hover{
+	color: #65bed6;
+    
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid #65bed6;
+  
+   border-bottom-right-radius: 15px;
+
+}
+.have-any-question{
+	 
+    background-image: url(../images/round.png);
+    margin-top: 100px;
+}
+.have-any-question h2{
+    color: #ffffff91;
+    text-transform: uppercase;
+    margin-left: 26px;
+}
+.have-any-question h1{
+    color: #fff;
+    margin-right: 294px;
+}
+
+.have-any-question a{
+    color: #65bed6;
+}
+.btn-danger{
+background-color: #fff;
+    margin-top: 30px;
+    border-bottom-right-radius: 15px;
+}
+
+.btn-design{
+	background: #25bee0;
+    color: #fff;
+    float: right;
+    border-bottom-right-radius: 17px;
+    display: block;
+    padding: 8px 30px;
+    margin-top: 20px;
+
+}
+.social-box .nav li {
+    font-size: 30px;
+    justify-content: center;
+}
+
+
+.social-box ul li .fab{
+	background: #40afcc;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+footer {
+    background: #40afcc;
+    padding: 20px 0;}
+ footer p{
+ 	    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+ }
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 10px;
+
+
+
+
+
+
 
