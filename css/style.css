@@ -61,6 +61,7 @@ h6{}
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
+    z-index: 9999;
 
 }
  .navbar-dark .navbar-nav .nav-link:hover {
@@ -77,10 +78,11 @@ h6{}
 	    width: 100%;
 	    height: 0%;
 	    z-index: -1;
+	    transition: all 0.6s ease;
 }
 .navbar-dark .navbar-nav .nav-link:hover:after{
 	height: 8%;
-	transition: all 0.6s ease;
+	
 
 }
 .navbar-dark .navbar-nav .nav-link:before{
@@ -92,11 +94,12 @@ h6{}
 	width: 100%;
 	height: 0%;
 	z-index: -1;
+	transition: all 0.6s ease;
+
 }
 .navbar-dark .navbar-nav .nav-link:hover:before{
 	height: 100%;
-	transition: all 0.6s ease;
-
+	
 
 }
 .navbar{
@@ -421,18 +424,18 @@ bottom: auto;
 	position: relative;
 }
 
-.nav{
+.works-menue{
     margin-left: 395px;
     margin-bottom: 14px;
 }
 
 
-.nav-item  a{
+.nav .nav-item  a{
 	padding: 10px;
 	text-decoration: none;
 	color: #afbac3a1;
 }
-.nav-item a:hover{
+.works-menue .nav-item a:hover{
 	color: #65bed6;
     
     font-size: 14px;
